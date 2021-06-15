@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form and table</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+   <div class="main">
+       <div class="fill">
+           <h2>Fill the details</h2>
+           <form id="fill" method="GET">
+               <label>First name:</label>
+               <br>
+               <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+               <br><br>
+               <label>Last name:</label>
+               <br>
+               <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+               <br><br>
+               <label>Address:</label>
+               <br>
+               <input type="text" id="address" name="address" placeholder="Enter your address">
+               <br><br>
+               <label>Pincode:</label>
+               <br>
+               <input type="number" id="pincode" name="pincode" placeholder="Enter your pincode">
+               <br><br>
+               <label>Gender:</label>
+               <br>
+               &nbsp;&nbsp;&nbsp;
+               <input type="radio" id="gender" name="gender">
+               &nbsp;
+               <span>Male</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="radio" id="gender" name="gender">
+               &nbsp;
+               <span>Female</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="radio" id="gender" name="gender">
+               &nbsp;
+               <span>Transgender</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="radio" id="gender" name="gender">
+               &nbsp;
+               <span>Others</span>
+               <br><br>
+               <label>Choice of food:</label>
+               <br>
+               &nbsp;&nbsp;&nbsp;
+               <input type="checkbox" id="food" name="food">
+               &nbsp;
+               <span>Indian</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="checkbox" id="food" name="food">
+               &nbsp;
+               <span>Italian</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="checkbox" id="food" name="food">
+               &nbsp;
+               <span>Chinese</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="checkbox" id="food" name="food">
+               &nbsp;
+               <span>Mexican</span>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <input type="checkbox" id="food" name="food">
+               &nbsp;
+               <span>Korean</span>
+               <br><br>
+               <label>State:</label>
+               <br>
+               <input type="text" id="state" name="state" placeholder="Enter your state">
+               <br><br>
+               <label>Country:</label>
+               <br>
+               <input type="text" id="country" name="country" placeholder="Enter your country">
+               <br><br>
+               <button id="entry" name="entry"> Submit </button>
+           </form>
+       </div>
+   </div> 
+   <table id="show">
+       <tr>
+           <th>First name</th>
+           <th>Last name</th>
+           <th>Address</th>
+           <th>Pincode</th>
+           <th>Gender</th>
+           <th>Choice of food</th>
+           <th>State</th>
+           <th>Country</th>
+       </tr>
+   </table>
+   <script type="text/javascript" src="script.js"></script> 
+</body>
+</html>
